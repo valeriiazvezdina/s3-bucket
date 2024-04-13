@@ -1,0 +1,31 @@
+{
+  "name": "s3-bucket-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "s3",
+    "aws",
+    "nodejs",
+    "js",
+    "prisma",
+    "multer"
+  ],
+  "author": "Valeriia Zvezdina",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.550.0",
+    "@aws-sdk/s3-request-presigner": "^3.554.0",
+    "@prisma/client": "^5.12.1",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
